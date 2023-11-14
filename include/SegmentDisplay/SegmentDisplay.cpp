@@ -88,12 +88,3 @@ void SegmentDisplay::Test()
     digitalWrite(m_G, HIGH);
     digitalWrite(m_DP, HIGH);
 }
-
-void SegmentDisplay::Debug()
-{
-    for (int i = 0; i < 7; i++)
-    {
-        Serial.print(m_Numbers[4][i]);
-        Serial.print("  ");
-    }
-}
