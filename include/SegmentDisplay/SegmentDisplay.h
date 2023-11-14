@@ -13,7 +13,6 @@ public:
     void DisplayNumber(byte number, long duration);
     void ResetNumberDisplay();
 
-    void Debug();
     void Test();
 private:
     void SetNumber(byte number);
